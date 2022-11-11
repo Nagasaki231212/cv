@@ -2,9 +2,9 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;  
-    padding: 0;   
-   
+    margin: 0;
+    padding: 0;
+
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 section {
-    height: 50vh;    
+    height: 50vh;
 }
 
 section img {
@@ -25,7 +25,7 @@ section img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white; 
+    background-color: white;
 }
 
 section#resumen-personal {
@@ -78,8 +78,8 @@ nav ul li {
 
 section#parrafos {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -87,10 +87,8 @@ section#parrafos {
 .imagenes-de-certificados {
     display: flex;
     flex-direction: column;
-}
-
-.imagenes-de-certificados img {
-    width: 20%;
+    align-items: center;
+    width: 100%;
 }
 
 
