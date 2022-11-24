@@ -1,91 +1,92 @@
 <html>
 
-    <head>
-        <meta charset="utf-8"/>
-        <title>Oscar Gil</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="utf-8" />
+    <title>Oscar Gil</title>
+</head>
 
-    <body>
-        <main>
-            <header>
-                <nav>
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Proyectos</li>
-                        <li>Contacto</li>
+<body class="text-center text-sm md:text-base lg:text-lg">
+    <main>
+        <header>
+            <nav class="flex flex-row justify-center mb-8">
+                <p>Inicio</p>
+                <p class="mx-8">Proyectos</p>
+                <p>Contacto</p>
+            </nav>
+        </header>
+
+        <div class="flex flex-col items-center justify-center">
+            <img src="./imagenes/yo.jpg" class="w-48" alt="Oscar">
+            <h1 class="text-3xl font-serif italic"> Oscar Antonio Gil Escalante</h1>
+            <h2 class="text-2xl font-light underline"> Freelancer Programador & asistente de farmacia veterinaria
+            </h2>
+        </div>
+
+        <div class="mt-8">
+            <h3 class="text-xl text-indigo-600">Resumen Personal:</h3>
+            <p class="text-center text-base">Soy una Persona Responsable, Sumamente dedicado a superarme Cada Dia
+                Mas! Soy muy ordenado y analista, Me enfoco en resolver cualquier tipo de situacion</p>
+        </div>
+
+
+        <div class="flex flex-col justify-evenly md:flex-row">
+            <section class="">
+                <h4 class="text-xl text-indigo-600 mt-8">Formacion Academica:</h4>
+                <div class="">
+                    <ul class="list-disc list-outside">
+                        <li class="text-base text-red-900 italic">Premedico ( Medicina Comunitaria )</li>
+                        <li class="text-base text-red-900 italic">Asitente De Farmacia veterinaria</li>
+                        <li class="text-base text-red-900 italic">Proyecto MiniMon Procedente De ( Platzi )</li>
+                        <li class="text-base text-red-900 italic">introduccion A la Programacion</li>
+                        <li class="text-base text-red-900 italic">2 Cursos De Programacion Basica En Platzi</li>
+                        <li class="text-base text-red-900 italic">Curso profesional de git</li>
+                        <li class="text-base text-red-900 italic">Curso de introduccion a tailwindcss</li>
                     </ul>
-                </nav>
-            </header>
-
-            <section id="principal">
-
-                <div class="principal-seccion">
-                    <img src="./imagenes/yo.jpg" alt="Oscar">
-                    <h1> Oscar Antonio Gil Escalante </h1>
-                    <h2> Freelancer Programador & asistente de farmacia veterinaria </h2>
-                </div>
-
-            </section>
-
-            <section id="resumen-personal">
-                <div class="resumen">
-                    <h3>Resumen Personal:</h3>
-                    <br>
-                    <p>Soy una Persona Responsable, Sumamente dedicado a superarme Cada Dia Mas! Soy muy ordenado atento y analista, Me enfoco en resolver cualquier tipo de situacion</p>
-                    <br>
-                    <h4>Formacion Academica:</h4>
-                    <br>
-                    <ul>
-                        <li>U.N.E Guillermo Gamarra Marrero</li>
-                        <li>Premedico ( Medicina Comunitaria )</li>
-                        <li>Asitente De Farmacia veterinaria</li>
-                        <li>2 Cursos De Programacion Basica En Platzi</li>
-                        <li>Proyecto MiniMon Procedente De ( Platzi )</li>
-                    </ul>
-                    <br>
-                </div>
-            </section>
-
-            <section id="parrafos">
-                <div class="datos">
-                    <h3>Datos Personales</h3>
-                    <h4>Nombres y Apellidos:</h4>
-                    <p>Oscar Antonio Gil Escalante</p>
-                    <h4>Correo electronico:</h4>
-                    <p>mcastrorap@gmail.com</p>
-                    <h4>Numero De Contacto:</h4>
-                    <p>04120508603</p>
-                    <h4>Direccion:</h4>
-                    <p>Venezuela-Portuguesa-Biscucuy</p>
-                </div>
-                <div class="competencia">
-                    <h4>Competencia:</h4>
-                    <ul>
-                        <li>Html</li>
-                        <li>Javascript</li>
-                        <li>Cascading Style Sheets</li>
-                    </ul>
-                    <h4>Pasa Tiempos:</h4>
-                    <ol>
-                        <li>Jugar Video Juegos</li>
-                        <li>Ver Peliculas & Series</li>
-                        <li>Escuchar Musica</li>
-                        <li>Ir A Caminar Por La Ciudad</li>
-                        <li>Pasar Tiempo Con Mi Familia</li>
-                        <li>Ir a Caminar Con Mi Esposa & Madre</li>
-                    </ol>
                 </div>
             </section>
 
-            <section class="imagenes-de-certificados">
+            <section class="">
+                <h4 class="text-xl text-indigo-600 mt-8">Competencia:</h4>
+                <ul class="list-disc">
+                    <li class="text-base text-red-900 italic">Html</li>
+                    <li class="text-base text-red-900 italic">Javascript</li>
+                    <li class="text-base text-red-900 italic">Cascading Style Sheets</li>
+                    <li class="text-base text-red-900 italic">Git</li>
+                    <li class="text-base text-red-900 italic">Tailwindcss</li>
+                </ul>
+            </section>
+
+            <section class="">
+                <h3 class="text-xl text-indigo-600 mt-8">Datos Personales</h3>
+                <h4>Nombres y Apellidos:</h4>
+                <p>Oscar Antonio Gil Escalante</p>
+                <h4>Correo electronico:</h4>
+                <p>mcastrorap@gmail.com</p>
+                <h4>Numero De Contacto:</h4>
+                <p>04120508603</p>
+                <h4>Direccion:</h4>
+                <p>Venezuela-Portuguesa-Biscucuy</p>
                 <h4>Certificados De Programacion:</h4>
-                <div style="display: flex; flex-direction: column;">
-                    <img width="600"  src="./imagenes/curso viejo.jpg" alt="certificado-curso-viejo">
-                    <img src="./imagenes/curso nuevo.jpg" alt="certificado-nuevo-curso">
-                    <a href="https://platzi.com/p/mcastrorap/">Enlace A Los Certificados</a>
-                </div>
             </section>
-        </main>
-    </body>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="mt-12" src="./imagenes/curso viejo.jpg" alt="curso-viejo" width="318">
+            <img class="mt-12" src="./imagenes/curso nuevo.jpg" alt="nuevo-curso" width="318">
+            <a class="mt-12" href="https://platzi.com/p/mcastrorap/">Enlace A Los Certificados</a>
+        </div>
+        <section class="mt-16 mb-16">
+            <h4 class="text-xl text-indigo-600">Pasa Tiempos:</h4>
+            <ol class="list-decimal list-inside">
+                <li class="text-base text-red-900 italic">Jugar Video Juegos</li>
+                <li class="text-base text-red-900 italic">Ver Peliculas & Series</li>
+                <li class="text-base text-red-900 italic">Escuchar Musica</li>
+                <li class="text-base text-red-900 italic">Ir A Caminar Por La Ciudad</li>
+                <li class="text-base text-red-900 italic">Pasar Tiempo Con Mi Familia</li>
+                <li class="text-base text-red-900 italic">Ir a Caminar Con Mi Esposa & Madre</li>
+            </ol>
+        </section>
+    </main>
+</body>
+
 </html>
